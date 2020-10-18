@@ -2,7 +2,7 @@ FROM node:latest AS build-stage
 
 WORKDIR /app
 
-RUN npm install --global pm2
+#RUN npm install --global pm2
 
 COPY package*.json ./
 
@@ -14,6 +14,6 @@ RUN npm run build
 
 EXPOSE 3000
 
-CMD ["pm2-runtime", "npm", "--", "start"]
+#CMD ["pm2-runtime", "npm", "--", "start"]
 
-#CMD ["npm", "start"]
+CMD ["npm", "start"]
