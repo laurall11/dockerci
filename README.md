@@ -2,26 +2,26 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started - Deploying with Docker 
 
-1) Clone this repository with 
+1. Clone this repository with 
 
 ```bash
 git clone https://github.com/laurall11/dockerci/
 ```
-2) Cd into local directory
+2. CD into local directory
 
-3) In the command line, run:
+3. In the command line, run:
 
 ```bash
 docker-compose up
 ```
 
-3.1) If you ever need to force a re-build, run
+3.1 If you ever need to force a re-build, run
 
 ```bash
 docker-compose up --build
 ```
 
-4) In your browser, go to http://localhost
+4. In your browser, go to http://localhost
 
 ## Getting Started - Locally
 
