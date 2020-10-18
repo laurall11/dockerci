@@ -32,3 +32,12 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# VS code
+.vscode
+
+#gitignore
+.gitignore
+
+#eslint configs
+.eslintrc.js
