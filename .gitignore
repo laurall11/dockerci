@@ -34,10 +34,7 @@ yarn-error.log*
 .vercel
 
 # VS code
-.vscode
-
-#gitignore
-.gitignore
+/.vscode
 
 #eslint configs
 .eslintrc.js
