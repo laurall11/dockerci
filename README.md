@@ -18,7 +18,7 @@ npm ci
 3.1 If you ever need to force a re-build, run
 
 ```bash
-npm ci-rebuild
+npm ci --rebuild
 ```
 
 4. In your browser, go to http://localhost
