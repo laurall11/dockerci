@@ -5,7 +5,8 @@
     "scripts": {
         "dev": "next dev -p 3001",
         "build": "next build",
-        "start": "next start"
+        "start": "next start",
+        "ci": "docker-compose up"
     },
     "dependencies": {
         "@types/node": "^14.11.10",
@@ -23,5 +24,8 @@
         "react": "16.14.0",
         "react-dom": "16.14.0",
         "typescript": "^4.0.3"
+    },
+    "devDependencies": {
+        "jest": "^26.5.3"
     }
 }
