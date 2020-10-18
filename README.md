@@ -12,13 +12,13 @@ git clone https://github.com/laurall11/dockerci/
 3. In the command line, run:
 
 ```bash
-docker-compose up
+npm ci
 ```
 
-3.1 If you ever need to force a re-build, run
+3.1 If you ever need to force a re-build of the Docker containers, run
 
 ```bash
-docker-compose up --build
+npm ci-rebuild
 ```
 
 4. In your browser, go to http://localhost
