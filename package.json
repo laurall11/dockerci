@@ -6,28 +6,26 @@
         "dev": "next dev -p 3001",
         "build": "next build",
         "start": "next start",
-        "ci": " jest && docker-compose up",
-        "ci-rebuild": "jest && docker-compose up --build",
-        "test": "jest"
+        "test": "jest",
+        "format": "prettier-eslint --eslint-config-path ./.eslintrc.js --write '**/*.js'",
+        "lint": "eslint . --ext .js",
+        "ci": "jest && docker-compose up",
+        "ci-rebuild": "jest && docker-compose up --build"
     },
     "dependencies": {
         "@types/node": "^14.11.10",
         "@types/react": "^16.9.53",
-        "@typescript-eslint/eslint-plugin": "^4.4.1",
-        "@typescript-eslint/parser": "^4.4.1",
-        "eslint": "^7.11.0",
-        "eslint-config-prettier": "^6.13.0",
-        "eslint-plugin-jsx-a11y": "^6.3.1",
-        "eslint-plugin-prettier": "^3.1.4",
-        "eslint-plugin-react": "^7.21.4",
-        "eslint-plugin-react-hooks": "^4.1.2",
         "next": "9.5.5",
-        "prettier": "^2.1.2",
         "react": "16.14.0",
         "react-dom": "16.14.0",
         "typescript": "^4.0.3"
     },
     "devDependencies": {
-        "jest": "^26.5.3"
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.11.0",
+        "jest": "^26.5.3",
+        "prettier": "^2.1.2",
+        "prettier-eslint": "^11.0.0",
+        "prettier-eslint-cli": "^5.0.0"
     }
 }
