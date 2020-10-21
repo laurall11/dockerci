@@ -8,8 +8,7 @@
         "start": "next start",
         "test": "jest",
         "format": "prettier-eslint --eslint-config-path ./.eslintrc.js --write '**/*.js'",
-        "lint": "eslint . --ext .js",
-        "ci": "jest && docker-compose up",
+        "ci": "jest && npm run format && docker-compose up",
         "ci-rebuild": "jest && docker-compose up --build"
     },
     "dependencies": {
@@ -23,7 +22,7 @@
     "devDependencies": {
         "babel-eslint": "^10.1.0",
         "eslint": "^7.11.0",
-        "jest": "^26.5.3",
+        "jest": "^26.6.0",
         "prettier": "^2.1.2",
         "prettier-eslint": "^11.0.0",
         "prettier-eslint-cli": "^5.0.0"
