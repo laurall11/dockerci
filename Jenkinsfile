@@ -11,7 +11,7 @@ node {
   
   stage('Test image'){
     app.inside{
-      sh 'npm test'
+      sh 'npm test ./node_modules/.bin/jest --updateSnapshot'
     }
   }
   
