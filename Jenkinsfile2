@@ -22,7 +22,7 @@ pipeline {
     }
     stage('Test Image'){
       steps{
-        sh 'npm test'
+        sh 'npm test ./node_modules/.bin/jest --updateSnapshot'
       }
     }
     stage('Deploy Image') {
