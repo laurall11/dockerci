@@ -11,6 +11,7 @@ node {
   
   stage('Test image'){
     sh 'npm test'
+    sh 'docker ps -a'
   }
   
   
