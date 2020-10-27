@@ -6,7 +6,7 @@ node {
   }
   
   stage('build image'){
-    app = docker.build("rathalexander/dockerci")
+    sh 'npm ci'
   }
   
   stage('Test image'){
