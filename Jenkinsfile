@@ -6,7 +6,8 @@ node {
   }
   
   stage('build image'){
-    app = sh 'npm ci'
+    sh 'npm ci'
+    app = 'npm ci-rebuild'
   }
   
   stage('Test image'){
