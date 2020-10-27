@@ -6,7 +6,7 @@ node {
   }
   
   stage('build image'){
-    app = docker.build("dockerci")
+    app = docker.build("rathalexander/dockerci")
     app.inside{
       sh 'npm ci'      
     }
@@ -20,7 +20,7 @@ node {
   
   stage('Push image'){
     docker.withRegistry('https://registry.hub.docker.com', 'dockerHub') {
-      app.push("rathalexander/"+"${env.BUILD_NUMBER}")
+      app.push("${env.BUILD_NUMBER}")
       app.push("latest")
     }
   }
