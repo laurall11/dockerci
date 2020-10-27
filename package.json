@@ -8,7 +8,7 @@
         "start": "next start",
         "test": "jest",
         "format": "prettier-eslint --eslint-config-path ./.eslintrc.js --write '**/*.js'",
-        "ci": "docker build -t nextapp .",
+        "ci": "jest && npm run format && docker-compose up",
         "ci-rebuild": "jest && docker-compose up --build"
     },
     "dependencies": {
