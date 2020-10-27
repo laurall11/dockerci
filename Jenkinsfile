@@ -7,8 +7,6 @@ node {
   
   stage('build image'){
     app = sh 'npm ci' 
-    }
-    
   }
   
   stage('Test image'){
