@@ -9,7 +9,7 @@
         "test": "jest",
         "format": "prettier-eslint --eslint-config-path ./.eslintrc.js --write '**/*.js'",
         "ci": "jest && npm run format && docker build -t nextapp . && docker build -t nginxserver ./nginx/",
-        "cites": "docker build -t nextapp ."
+        "cites": "docker build -t nextapp .",
         "ci-rebuild": "jest && docker-compose up --build"
     },
     "dependencies": {
