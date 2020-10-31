@@ -7,9 +7,9 @@
         "build": "next build",
         "start": "next start",
         "test": "jest",
-        "lint": "eslint -o Outputfile -f tap --fix .",
-        "format": "prettier-eslint --eslint-config-path ./.eslintrc.js --write '**/*.js'",
-        "ci": "jest && npm run lint && npm run format",
+        "lint": "eslint -o Outputfile -f tap . --ext .tsx",
+        "format": "prettier-eslint --eslint-config-path ./.eslintrc.json --write '**/*.js'",
+        "ci": "jest && npm run lint && npm run format && docker-compose up",
         "ci-rebuild": "jest && npm run lint && docker-compose up --build"
     },
     "dependencies": {
