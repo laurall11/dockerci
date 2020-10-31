@@ -1,0 +1,121 @@
+TAP version 13
+1..24
+ok 1 - C:\Users\laura\OneDrive\Dokumente\FH Technikum\Semester\5. Semester\CC\Projekt\Docker CI\dockerci-src\dockerci\.eslintrc.js
+ok 2 - C:\Users\laura\OneDrive\Dokumente\FH Technikum\Semester\5. Semester\CC\Projekt\Docker CI\dockerci-src\dockerci\build\server\init-server.js.js
+ok 3 - C:\Users\laura\OneDrive\Dokumente\FH Technikum\Semester\5. Semester\CC\Projekt\Docker CI\dockerci-src\dockerci\build\server\on-error-server.js.js
+not ok 4 - C:\Users\laura\OneDrive\Dokumente\FH Technikum\Semester\5. Semester\CC\Projekt\Docker CI\dockerci-src\dockerci\build\server\pages\_app.js
+  ---
+  message: 'Parsing error: Unexpected token {'
+  severity: error
+  data:
+    line: 117
+    column: 16
+    ruleId: ''
+  ...
+not ok 5 - C:\Users\laura\OneDrive\Dokumente\FH Technikum\Semester\5. Semester\CC\Projekt\Docker CI\dockerci-src\dockerci\build\server\pages\_document.js
+  ---
+  message: 'Parsing error: The keyword ''const'' is reserved'
+  severity: error
+  data:
+    line: 253
+    column: 3
+    ruleId: ''
+  ...
+not ok 6 - C:\Users\laura\OneDrive\Dokumente\FH Technikum\Semester\5. Semester\CC\Projekt\Docker CI\dockerci-src\dockerci\build\server\pages\_error.js
+  ---
+  message: 'Parsing error: The keyword ''const'' is reserved'
+  severity: error
+  data:
+    line: 143
+    column: 1
+    ruleId: ''
+  ...
+ok 7 - C:\Users\laura\OneDrive\Dokumente\FH Technikum\Semester\5. Semester\CC\Projekt\Docker CI\dockerci-src\dockerci\build\server\pages\index.js
+ok 8 - C:\Users\laura\OneDrive\Dokumente\FH Technikum\Semester\5. Semester\CC\Projekt\Docker CI\dockerci-src\dockerci\build\server\ssr-module-cache.js
+ok 9 - C:\Users\laura\OneDrive\Dokumente\FH Technikum\Semester\5. Semester\CC\Projekt\Docker CI\dockerci-src\dockerci\build\static\chunks\0.js
+ok 10 - C:\Users\laura\OneDrive\Dokumente\FH Technikum\Semester\5. Semester\CC\Projekt\Docker CI\dockerci-src\dockerci\build\static\chunks\amp.js
+not ok 11 - C:\Users\laura\OneDrive\Dokumente\FH Technikum\Semester\5. Semester\CC\Projekt\Docker CI\dockerci-src\dockerci\build\static\chunks\main.js
+  ---
+  message: Definition for rule '@typescript-eslint/no-unused-vars' was not found.
+  severity: error
+  data:
+    line: 878
+    column: 13
+    ruleId: '@typescript-eslint/no-unused-vars'
+  messages:
+    - message: Definition for rule '@typescript-eslint/no-unused-vars' was not found.
+      severity: error
+      data:
+        line: 2035
+        column: 5
+        ruleId: '@typescript-eslint/no-unused-vars'
+  ...
+not ok 12 - C:\Users\laura\OneDrive\Dokumente\FH Technikum\Semester\5. Semester\CC\Projekt\Docker CI\dockerci-src\dockerci\build\static\chunks\pages\_app.js
+  ---
+  message: Definition for rule 'react-internal/no-production-logging' was not found.
+  severity: error
+  data:
+    line: 5357
+    column: 5
+    ruleId: react-internal/no-production-logging
+  ...
+not ok 13 - C:\Users\laura\OneDrive\Dokumente\FH Technikum\Semester\5. Semester\CC\Projekt\Docker CI\dockerci-src\dockerci\build\static\chunks\pages\_error.js
+  ---
+  message: Definition for rule 'react-internal/no-production-logging' was not found.
+  severity: error
+  data:
+    line: 1758
+    column: 5
+    ruleId: react-internal/no-production-logging
+  ...
+not ok 14 - C:\Users\laura\OneDrive\Dokumente\FH Technikum\Semester\5. Semester\CC\Projekt\Docker CI\dockerci-src\dockerci\build\static\chunks\pages\index.js
+  ---
+  message: Definition for rule 'react-internal/no-production-logging' was not found.
+  severity: error
+  data:
+    line: 1686
+    column: 5
+    ruleId: react-internal/no-production-logging
+  ...
+ok 15 - C:\Users\laura\OneDrive\Dokumente\FH Technikum\Semester\5. Semester\CC\Projekt\Docker CI\dockerci-src\dockerci\build\static\chunks\polyfills.js
+not ok 16 - C:\Users\laura\OneDrive\Dokumente\FH Technikum\Semester\5. Semester\CC\Projekt\Docker CI\dockerci-src\dockerci\build\static\chunks\react-refresh.js
+  ---
+  message: 'Parsing error: The keyword ''const'' is reserved'
+  severity: error
+  data:
+    line: 44
+    column: 1
+    ruleId: ''
+  ...
+ok 17 - C:\Users\laura\OneDrive\Dokumente\FH Technikum\Semester\5. Semester\CC\Projekt\Docker CI\dockerci-src\dockerci\build\static\chunks\webpack.js
+ok 18 - C:\Users\laura\OneDrive\Dokumente\FH Technikum\Semester\5. Semester\CC\Projekt\Docker CI\dockerci-src\dockerci\build\static\development\_buildManifest.js
+ok 19 - C:\Users\laura\OneDrive\Dokumente\FH Technikum\Semester\5. Semester\CC\Projekt\Docker CI\dockerci-src\dockerci\build\static\development\_ssgManifest.js
+ok 20 - C:\Users\laura\OneDrive\Dokumente\FH Technikum\Semester\5. Semester\CC\Projekt\Docker CI\dockerci-src\dockerci\next.config.js
+not ok 21 - C:\Users\laura\OneDrive\Dokumente\FH Technikum\Semester\5. Semester\CC\Projekt\Docker CI\dockerci-src\dockerci\pages\_app.js
+  ---
+  message: 'Parsing error: The keyword ''import'' is reserved'
+  severity: error
+  data:
+    line: 1
+    column: 1
+    ruleId: ''
+  ...
+not ok 22 - C:\Users\laura\OneDrive\Dokumente\FH Technikum\Semester\5. Semester\CC\Projekt\Docker CI\dockerci-src\dockerci\pages\api\hello.js
+  ---
+  message: 'Parsing error: The keyword ''export'' is reserved'
+  severity: error
+  data:
+    line: 3
+    column: 1
+    ruleId: ''
+  ...
+ok 23 - C:\Users\laura\OneDrive\Dokumente\FH Technikum\Semester\5. Semester\CC\Projekt\Docker CI\dockerci-src\dockerci\tests\sum.js
+not ok 24 - C:\Users\laura\OneDrive\Dokumente\FH Technikum\Semester\5. Semester\CC\Projekt\Docker CI\dockerci-src\dockerci\tests\sum.test.js
+  ---
+  message: 'Parsing error: The keyword ''const'' is reserved'
+  severity: error
+  data:
+    line: 1
+    column: 1
+    ruleId: ''
+  ...
