@@ -73,7 +73,7 @@ Next run the following to commands locally:
 
 ```bash
 docker image build -t jenkins-docker
-docker container run -p 8080:8080-v /var/run/docker.sock:/var/run/docker.sock Jenkins-docker
+docker container run -p 8080:8080 -v /var/run/docker.sock:/var/run/docker.sock Jenkins-docker
 ```
 
 ## Get Administrator Password for Jenkins
